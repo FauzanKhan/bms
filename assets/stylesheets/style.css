@@ -1,0 +1,108 @@
+body{
+			background:#F8F8F8;
+			text-align:center;
+			font-family:'Dosis';
+			}
+		.logo{
+			width:400px;
+			height:150px;
+			margin:0 auto;
+		}
+		#content{
+			width:700px;
+			margin:0 auto;
+			margin-top:30px;
+			padding:0px;
+			font-size:18px;
+			}
+		#content .testName{
+			text-align:right;
+			margin-right:20px;
+			margin-bottom:30px;
+			font-weight:normal;
+			color:#A0A0A0;
+		}
+		#content form{
+			width:100%;
+			padding:0px;
+			position:relative;
+			}
+		#content form .textInput{
+			width:70%;
+			font-size:24px;
+			padding:10px 20px;
+			border:1px solid #D71A21;
+			font-family:'Dosis';
+			}
+		#content form .submitBtn{
+			font-size:24px;
+			color:#FCFCFC;
+			background:#D71A21;
+			padding:11px 20px;
+			border-width:0px;
+			cursor:pointer;
+			margin-left:4px;
+			font-family:'Dosis';
+			}
+		#content .flashWrapper{
+			width:86%;
+			border:1px solid #EAEAEA;
+			margin:0 auto;
+			background:#FAFAFA;
+			margin-top:10px;
+			padding:0px 20px;
+			color:#D71A21;
+			}
+		#content .arrayDisplay{
+			width:86%;
+			border:1px solid #EAEAEA;
+			margin:0 auto;
+			background:#FFF;
+			margin-top:10px;
+			text-align:left;
+			padding:10px 20px;
+			}
+		#content .arrayDisplay .divider{
+			border-top:1px solid #EAEAEA;
+			height:1px;
+			margin-top:18px;
+			}
+		#content .arrayDisplay .arrayName{
+			font-size:16px;
+			font-weight:bold;
+			}
+		#content .arrayDisplay .initialArray, #content .arrayDisplay .currentArray{
+			padding:5px 12px;
+			}
+		@media all and (max-width:1024px){
+			#content{
+				width:80%;
+			}
+		}
+		@media all and (max-width:680px){
+			#content form .textInput{
+				width:60%;
+			}
+		}
+		@media all and (max-width:510px){
+			#content form .textInput{
+				width:70%;
+			}
+
+			#content form .submitBtn{
+				display:block;
+				margin:0 auto;
+				margin-top:10px;
+			}
+		}
+		@media all and (max-width:480px){
+			.logo img{
+				width:200px;
+				height:75px;
+			}
+		}
+		@media all and (max-width:480px){
+			#content{
+				width:90%;
+			}
+		}

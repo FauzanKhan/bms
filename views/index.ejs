@@ -12,6 +12,11 @@
 		<div class="logo">
 			<img src="images/bmsLogo.png" width="400px" height="150px" />
 		</div>
+		<% if(typeof flashMessage != 'undefined'){ %>
+			<div class="flashMessage <%= type %>">
+				<p><%= flashMessage %></p>
+			</div>
+		<% } %>
 		<div id="content">
 		</div>
 	</body>

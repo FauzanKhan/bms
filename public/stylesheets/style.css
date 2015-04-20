@@ -3,6 +3,26 @@ body{
 	text-align:center;
 	font-family:'Dosis';
 	}
+.flashMessage{
+	background:#FAFAFA;
+	font-weight:bold;
+	border:1px solid #EAEAEA;
+	width:50%;
+	margin:0 auto;
+	color:#333;
+}
+.flashMessage.error{
+	background:#f2dede;
+	font-weight:bold;
+	border:1px solid #EAEAEA;
+	color:#FFF;
+}
+.flashMessage.success{
+	background:#DFF0D8;
+	font-weight:bold;
+	border:1px solid #DFF0D8;
+	color:#FFF;
+}
 #content{
 	width:700px;
 	margin:0 auto;
@@ -39,7 +59,7 @@ body{
 	margin-left:4px;
 	font-family:'Dosis';
 	}
-#content .flashWrapper{
+#content .notificationWrapper{
 	width:86%;
 	border:1px solid #EAEAEA;
 	margin:0 auto;

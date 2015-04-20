@@ -112,7 +112,7 @@ var ArrayForm = React.createClass({
 var Notification = React.createClass({
 	render : function(){
 		return(
-			<div className="flashWrapper">
+			<div className="notificationWrapper">
 				<p>{this.props.message.rangeError}</p>
 				<p>{this.props.message.duplication}</p>
 				<p>You may enter comma separated numbers or a range of numbers separated by hyphen</p>

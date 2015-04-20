@@ -17,30 +17,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-/*app.get('/', function(req, res, next) {
-  res.render('index', { title: 'BookmyShow - Assignment' });
-});
-
-/*app.post('/', function(req, res){
-  var arr = req.body.userInput;
-  if(typeof arr === 'undefined'){
-    res.render('index', {title : 'Error', flashMessage : 'An error occurred while processing you request. Please try again', type: 'error'});
-  }
-  else{
-    var array = arr.split(',');
-    client.set('userArray', array);
-    res.render('index', {title : 'Success', flashMessage : 'Post Complete', type: 'success'});
-  }
-  console.log(arr);
-  client.get('userArray', function(err, reply) {
-    console.log(reply);
-  });
-});*/
-
-
-
-
 // catch 404 and forward to error handler
 
 // error handlers

@@ -76,7 +76,7 @@ var ArrayInputField = React.createClass({
 		if(values.toString().indexOf('-') == -1){
 			notificationMessage.rangeError = '';
 		}
-		console.log(currentArray);
+		//console.log(currentArray);
 		this.props.onUserInput(currentArray, notificationMessage.rangeError, notificationMessage.duplication);
 	},
 	render : function () {

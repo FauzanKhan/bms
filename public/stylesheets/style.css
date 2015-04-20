@@ -15,13 +15,11 @@ body{
 	background:#f2dede;
 	font-weight:bold;
 	border:1px solid #EAEAEA;
-	color:#FFF;
 }
 .flashMessage.success{
 	background:#DFF0D8;
 	font-weight:bold;
 	border:1px solid #DFF0D8;
-	color:#FFF;
 }
 #content{
 	width:700px;
